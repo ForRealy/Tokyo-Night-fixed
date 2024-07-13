@@ -49,11 +49,11 @@
 }
 
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(1) {
-  order: 2;
-}
-.withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
   order: 3;
 }
-.withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
+.withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
   order: 1;
+}
+.withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
+  order: 2;
 }
