@@ -1,67 +1,59 @@
-/* Mac-like Titlebar e92a2a */
+/* Mac Like Titlebar */
 :root {
-  --close-button-color: #000000;
-  --minimize-button-color: #f7bc1b;
-  --maximize-button-color: #12db33;
-  --button-position: row; /* This might be unnecessary, but if you need to switch between row/column, keep it */
+  --close-button-color: #e92a2ade;
+  --minimize-button-color: #f7bc1bde;
+  --maximize-button-color: #12db33de;
+  --button-position: row;
 }
 
 .withFrame_a934d8 {
   margin: 0;
   height: 24px;
-  display: flex;
-  align-items: center;
 }
-
 .typeWindows_a934d8 {
-  display: flex;
   flex-direction: var(--button-position);
   margin-left: 3px !important;
 }
-
 .withFrame_a934d8 .winButton_a934d8 > svg {
   display: none;
 }
-
+.withFrame_a934d8 .winButton_a934d8:hover {
+  background-color: var(--background-teritary);
+}
 .withFrame_a934d8 .winButton_a934d8 {
   pointer-events: none;
   margin-left: -4px;
-  position: relative;
+  top: 0;
 }
-
 .withFrame_a934d8 .winButton_a934d8::after {
   content: "";
   padding: 7px;
-  border-radius: 50%;
-  display: inline-block;
-  pointer-events: all;
-  transition: transform 200ms;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
 }
-
 .withFrame_a934d8 .winButtonClose_a934d8::after {
-  background-color: var(--close-button-color);
+  background-color: var(--close-button-color) !important;
+  margin-top: 0px;
 }
-
 .withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
-  background-color: var(--maximize-button-color);
+  background-color: var(--maximize-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4)::after {
-  background-color: var(--minimize-button-color);
+.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4):after {
+  background-color: var(--minimize-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButton_a934d8:hover::after {
+.typeWindows_a934d8 > div:hover::after {
   transform: scale(1.1);
 }
 
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(1) {
   order: 2;
 }
-
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
   order: 3;
 }
-
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
   order: 1;
 }
