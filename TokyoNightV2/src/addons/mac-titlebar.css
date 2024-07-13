@@ -7,59 +7,46 @@
 }
 
 .withFrame_a934d8 {
-  display: flex;
-  justify-content: flex-end; /* Align buttons to the right */
-  align-items: center;
   margin: 0;
   height: 24px;
 }
-
 .typeWindows_a934d8 {
-  display: flex;
-  margin-left: 3px; /* Adjust margin to create spacing */
+  flex-direction: var(--button-position);
+  margin-left: 3px !important;
 }
-
+.withFrame_a934d8 .winButton_a934d8 > svg {
+  display: none;
+}
+.withFrame_a934d8 .winButton_a934d8:hover {
+  background-color: var(--background-teritary);
+}
 .withFrame_a934d8 .winButton_a934d8 {
-  position: relative;
-  margin-left: 4px; /* Adjust spacing between buttons */
+  pointer-events: none;
+  margin-left: -4px;
+  top: 0;
 }
-
 .withFrame_a934d8 .winButton_a934d8::after {
   content: "";
-  display: inline-block;
   padding: 7px;
-  border-radius: 50%;
-  transition: transform 200ms;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
 }
-
 .withFrame_a934d8 .winButtonClose_a934d8::after {
-  background-color: var(--close-button-color);
+  background-color: var(--close-button-color) !important;
+  margin-top: 0px;
 }
-
 .withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
-  background-color: var(--maximize-button-color);
+  background-color: var(--maximize-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4)::after {
-  background-color: var(--minimize-button-color);
+.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4):after {
+  background-color: var(--minimize-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButton_a934d8:hover::after {
+.typeWindows_a934d8 > div:hover::after {
   transform: scale(1.1);
 }
-
-
-/*
-.withFrame_a934d8 .winButton_a934d8:nth-last-child(1) {
-  order: 1;
-}
-.withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
-  order: 2;
-}
-.withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
-  order: 3;
-}
-*/
 
 .withFrame_a934d8 .winButtonClose_a934d8 {
   order: 3; /* Close button */
