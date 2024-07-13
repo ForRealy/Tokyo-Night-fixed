@@ -36,7 +36,8 @@
 /* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/username-background.css"); */
 
 /* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
-@import url("https://dyzean.github.io/Tokyo-Night/src/addons/mac-titlebar.css");
+
+@import url("https://github.com/ForRealy/TokyoNightV2/blob/main/TokyoNightV2/src/addons/mac-titlebar.css");
 
 /* Compact Mode, hide some UI part on specific windows size,
   <920px Channel sidebar and member list get hidden, <600px Chat window only. (Disabled by default) */
