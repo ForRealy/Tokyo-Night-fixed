@@ -1,6 +1,6 @@
-/* Mac-like Titlebar */
+/* Mac-like Titlebar e92a2a */
 :root {
-  --close-button-color: #e92a2a;
+  --close-button-color: #000000;
   --minimize-button-color: #f7bc1b;
   --maximize-button-color: #12db33;
   --button-position: row; /* This might be unnecessary, but if you need to switch between row/column, keep it */
