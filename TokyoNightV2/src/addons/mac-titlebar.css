@@ -13,7 +13,7 @@
 
 .typeWindows_a934d8 {
   flex-direction: var(--button-position);
-  margin-left: 3px !important;
+  /*margin-left: 3px !important;*/
 }
 
 .withFrame_a934d8 .winButton_a934d8 > svg {
