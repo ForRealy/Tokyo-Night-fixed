@@ -672,6 +672,14 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* ~~~~		  		Settings Modal							~~~~ */
 
+.contentRegionScroller__23e6b, .tools__23e6b {
+    background-color: var(--background-tertiary) !important;
+}
+
+.sidebarRegionScroller__23e6b  {
+    background-color: var(--background-secondary) !important;
+}
+
 .theme-light .closeButton_c2b141 {
     border-color: var(--background-secondary-alt);
 }
