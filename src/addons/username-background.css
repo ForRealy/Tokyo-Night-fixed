@@ -1,0 +1,43 @@
+/* Compact Mode */
+.compact_ec86aa .headerText_ec86aa > .username_ec86aa::before,
+.compact_d5deea .headerText_d5deea > .username_d5deea::before {
+  content: ''; 
+  width: calc(100% + 6px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  left: -4px;
+  z-index: -1;
+}
+.compact_ec86aa .headerText_ec86aa > .username_ec86aa::after,
+.compact_d5deea .headerText_d5deea > .username_d5deea::after {
+  content: ":";
+}
+
+/* Cozy Mode */
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa::before,
+.cozy_d5deea .headerText_d5deea > .username_d5deea::before {
+  content: ''; 
+  width: calc(100% + 7px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa::after,
+.cozy_d5deea .headerText_d5deea > .username_d5deea::after {
+  content: ":";
+}
+/* repairs left shift */
+.cozy_ec86aa .headerText_ec86aa > .username_ec86aa,
+.cozy_d5deea .headerText_d5deea > .username_d5deea {
+  margin-left: 3px;
+}

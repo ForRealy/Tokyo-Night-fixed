@@ -1,14 +1,14 @@
-/**
- * @name Tokyo Night
- * @author Ashtrath
- * @version 2.1.0
- * @description A Discord port of the V.S. Code "Tokyo Night" theme.
- * @source https://github.com/Dyzean/Tokyo-Night/
- * @authorId 2354831939099688962
- */
+@-moz-document domain("discord.com") {
+/* ==UserStyle==
+   @name        Tokyo Night V2
+   @description An updated version of the Tokyo Night Discord theme with fixes for newer Discord versions and proper attribution to the original creator.
+   @author      ForRealy (based on original work by Ashtrath)
+   @namespace   https://github.com/ForRealy/TokyoNightV2
+   @version     2.2.0
+==/UserStyle== */
 
-/* DONT TOUCH THIS!!! */
-@import url("https://dyzean.github.io/Tokyo-Night/src/main.css");
+  @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/main.css");
+}
 
 /*  Read this before editing stuff!!!
 *
@@ -21,33 +21,32 @@
 */
 
 /* ====== Optional Addons ====== */
-@import url("https://dyzean.github.io/Tokyo-Night/src/addons/revert-rebrand.css");
+@import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/revert-rebrand.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 
 /* VSCode User Area, get Visual Studio like user area (Enabled by default)
-  note: this addons doesn't works well with Compact Mode addon,
+  note: this addons doesn't work well with Compact Mode addon,
   please disable this when using Compact Mode addon */
-@import url("https://dyzean.github.io/Tokyo-Night/src/addons/vscode-user-area.css");
+@import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/vscode-user-area.css");
 
 /* Syntax Highlight, get hljs styling with Tokyo Night scheme (Enabled by default) */
-@import url("https://dyzean.github.io/Tokyo-Night/src/addons/syntax-highlight.css");
+@import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/syntax-highlight.css");
 
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
-/* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/username-background.css"); */
+/* @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/username-background.css"); */
 
 /* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
-
-@import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/TokyoNightV2/src/addons/mac-titlebar.css");
+@import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/mac-titlebar.css");
 
 /* Compact Mode, hide some UI part on specific windows size,
   <920px Channel sidebar and member list get hidden, <600px Chat window only. (Disabled by default) */
-/* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/compact-mode.css"); */
+/* @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/compact-mode.css"); */
 
 /* Monospace, use monospaced font (JetBrains Mono) instead the default one (Disabled by default) */
-/* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/monospace-fonts.css"); */
+/* @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/monospace-fonts.css"); */
 
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
-/* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/square-avatar.css"); */
+/* @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/addons/square-avatar.css"); */
 
 
 /* ==== Discord Variables ==== */
@@ -91,7 +90,7 @@
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #2b2b46af;
   --scrollbar-auto-thumb-hover: #27273d85;
-  --scrollba-auto-track: transparent;
+  --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
 
@@ -101,11 +100,6 @@
 
 	/* Square avatar addons */
 	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
 }
 
 .theme-light { /* Light Mode */
@@ -163,11 +157,4 @@
 
   /* Square avatar addons */
 	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
-  --button-position: row;
-
 }

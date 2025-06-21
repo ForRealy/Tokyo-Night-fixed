@@ -1,4 +1,4 @@
-/* stolen from https://github.com/x6r/dracula/blob/main/addons/hljs-styling.scss :D */
+/* Tokyo Night syntax highlighting for code blocks */
 :root {
   /* ---- Default Colors -- */
   --background: var(--background-secondary);
@@ -73,7 +73,8 @@
   --hljs-class-title: var(--color-7);
 }
 
-#app-mount .hljs {
+#app-mount .hljs,
+#app-mount .codeBlock_f3f9c4 {
   font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', var(--font-code), monospace;
   background: var(--background-secondary);
   color: var(--text-normal);
@@ -81,7 +82,8 @@
   border-radius: 5px;
 }
 
-#app-mount .codeLine-3a3dbd {
+#app-mount .codeLine-3a3dbd,
+#app-mount .codeLine_f3f9c4 {
   color: var(--text-default);
 }
 
@@ -163,7 +165,7 @@
 }
 
 #app-mount .hljs-built_in {
-  color: var(--hljsbuilt_in);
+  color: var(--hljs-built_in);
 }
 
 #app-mount .hljs-title {
@@ -278,6 +280,8 @@
   color: var(--hljs-class-title);
 }
 
+/* Language-specific syntax highlighting */
+
 /* Haskell Specific Syntax */
 #app-mount .hs .hljs-type {
   color: var(--color-7);
@@ -288,7 +292,7 @@
   color: var(--color-7);
 }
 
-/* Clang Specific Syntax */
+/* C/C++ Specific Syntax */
 #app-mount .c .hljs-keyword {
   color: var(--color-7);
 }
@@ -312,4 +316,15 @@
 /* PHP Specific Syntax */
 #app-mount .php .hljs-variable {
   color: var(--color-10);
+}
+
+/* JavaScript/TypeScript Specific Syntax */
+#app-mount .js .hljs-built_in,
+#app-mount .ts .hljs-built_in {
+  color: var(--color-8);
+}
+
+/* Python Specific Syntax */
+#app-mount .python .hljs-built_in {
+  color: var(--color-9);
 }

@@ -1,0 +1,125 @@
+/* === User Menu, Credit to Strencher#1044 for this === */
+/* === Updated for newer Discord versions === */
+
+.guilds-2JjMmN,
+.guilds_a7e7a8 {
+  height: calc(100% - 128px);
+}
+.guilds-2JjMmN .scroller-3X7KbA,
+.guilds_a7e7a8 .scroller_a7e7a8 {
+  background: var(--background-tertiary);
+}
+
+/* Updated selectors for newer Discord */
+:not(.powercord-spotify) > .container-YkUktl,
+:not(.powercord-spotify) > .container_f3f9c4 {
+  position: absolute;
+  left: -62px;
+  bottom: 39px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+:not(.powercord-spotify) > .container-YkUktl::before,
+:not(.powercord-spotify) > .container_f3f9c4::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 72px;
+  height: 128px;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: var(--background-tertiary);
+}
+.button-12Fmur,
+.userButton_f3f9c4 {
+  color: var(--interactive-normal) !important;
+  transition: color 150ms ease-in;
+}
+.button-12Fmur:hover,
+.userButton_f3f9c4:hover {
+  color: var(--interactive-hover) !important;
+}
+.title-338goq,
+.userTitle_f3f9c4 {
+  color: var(--accent-color);
+  font-weight: 650;
+}
+.sidebar-1tnWFu,
+.sidebar_a4d4d9 {
+  overflow: visible !important;
+}
+.base-2jDfDU,
+.base_f3f9c4 {
+  overflow: visible !important;
+  max-width: calc(100% - 72px);
+}
+.panels-3wFtMD,
+.panels_f3f9c4 {
+  background-color: var(--background-tertiary);
+  padding-bottom: 25px;
+}
+.panel-j1Uci_ .powercord-spotify {
+	padding-bottom: none;
+}
+:not(.powercord-spotify) > .container-YkUktl .nameTag-sc-gpq,
+:not(.powercord-spotify) > .container_f3f9c4 .nameTag_f3f9c4 {
+  position: absolute;
+  bottom: -37px;
+  align-items: center;
+  display: flex;
+  left: 5px;
+  z-index: 2;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF,
+:not(.powercord-spotify) > .container_f3f9c4 .userControls_f3f9c4 {
+  left: 140px;
+  bottom: -64px;
+  position: relative;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:last-of-type,
+:not(.powercord-spotify) > .container_f3f9c4 .userControls_f3f9c4 button:last-of-type {
+  position: fixed;
+  bottom: 38px;
+  transform: scale(1.7);
+  left: 21px;
+  z-index: 2;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:last-of-type:hover,
+:not(.powercord-spotify) > .container_f3f9c4 .userControls_f3f9c4 button:last-of-type:hover {
+  background: none;
+}
+:not(.powercord-spotify) > .container-YkUktl .flex-2S1XBF button:not(:last-of-type),
+:not(.powercord-spotify) > .container_f3f9c4 .userControls_f3f9c4 button:not(:last-of-type) {
+  background: none;
+  left: 60px;
+  transform: scale(0.7);
+}
+:not(.powercord-spotify) > .container-YkUktl .avatarWrapper-1B9FTW,
+:not(.powercord-spotify) > .container_f3f9c4 .avatar_f3f9c4 {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+  top: -25px;
+}
+:not(.powercord-spotify) > .container-YkUktl .subtext-2HDqJ7,
+:not(.powercord-spotify) > .container_f3f9c4 .subtext_f3f9c4 {
+  font-size: 14px;
+  margin-left: 3px;
+}
+:not(.powercord-spotify) > .container-YkUktl .hoverRoll-2XwpoF,
+:not(.powercord-spotify) > .container_f3f9c4 .username_f3f9c4 {
+  width: 140px;
+}
+:not(.powercord-spotify) > .container-YkUktl .hovered-20u3oh,
+:not(.powercord-spotify) > .container_f3f9c4 .username_f3f9c4:hover {
+  text-overflow: unset;
+}
+
+/* Fix Status picker position */
+#status-picker {
+  bottom: -8em;
+  left: 4.3em;
+}
