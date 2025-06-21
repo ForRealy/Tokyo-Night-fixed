@@ -48,11 +48,10 @@
   --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
-  --channeltextarea-background: var(--background-secondary);
-  --input-background: var(--background-secondary);
-}
 
-.theme-light {
+  /* Discord Stable 410706 specific fixes */
+  --discord-stable-410706: true;
+  --discord-electron-35: true;
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   --text-normal: #2e3338;
