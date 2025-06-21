@@ -20,15 +20,28 @@ The theme transforms Discord with the beautiful Tokyo Night color palette, featu
 - Improved readability
 - Consistent styling across all Discord elements
 
-## 🚀 Installation
+## 📦 Installation
 
-### BetterDiscord
-1. Download the latest `tokyo-night.theme.css` from the [releases page](https://github.com/ForRealy/TokyoNightV2/releases)
-2. Place it in your BetterDiscord themes folder:
+### Using Vencord (Recommended)
+1. Install Vencord from [here](https://vencord.dev)
+2. Open Discord
+3. Press `Ctrl + Shift + I` to open Developer Tools
+4. Navigate to the "Themes" section
+5. Add this URL: `https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css`
+6. Enable the theme in the Vencord settings
+
+### Using BetterDiscord
+1. Download and install BetterDiscord from [here](https://betterdiscord.app)
+2. Open Discord
+3. Press `Ctrl + Shift + I` to open Developer Tools
+4. Click the gear icon in the top-right corner
+5. Click "Import Theme"
+6. Copy and paste the theme code from [tokyo-night.theme.css](https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css)
+7. Click "Save" it in your BetterDiscord themes folder:
    - Windows: `%appdata%/BetterDiscord/themes/`
    - macOS: `~/Library/Application Support/BetterDiscord/themes/`
    - Linux: `~/.config/BetterDiscord/themes/`
-3. Enable the theme in Discord Settings > Themes
+8. Enable the theme in Discord Settings > Themes
 
 ### Stylus (Browser Extension)
 1. Install the Stylus browser extension
