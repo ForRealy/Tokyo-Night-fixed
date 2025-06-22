@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.
 * **Original Theme**: [Ashtrath](https://github.com/Dyzean/Tokyo-Night) - Creator of the original Tokyo Night Discord theme
 * **Fixes & Updates**: [thaYt](https://github.com/thaYt/Tokyo-Night-fix) - Recent fixes and Discord compatibility updates
 * **Tokyo Night Color Scheme**: [enkia](https://github.com/enkia/tokyo-night-vscode-theme) - Original VS Code theme
-* LuckFire for Better Quotes
-* NYRI4 for Discolored
+* [LuckFire](https://github.com/LuckFire) for [Better Quotes](https://github.com/discord-extensions-archived/CSS-Snippets/tree/master/BetterQuotes)
+* [NYRI4](https://github.com/NYRI4) for Discolored
 * GooseNest for Revert Rebrand
 * Also Huge thanks for BD & Powercord servers for snippets and help!
