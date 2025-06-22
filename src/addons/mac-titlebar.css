@@ -6,25 +6,91 @@
   --button-position: row;
 }
 
+/* New Discord window button structure */
+.winButtons_c38106 {
+  flex-direction: var(--button-position);
+  margin-left: 3px !important;
+}
+
+.winButtons_c38106 .winButton_c38106 {
+  pointer-events: none;
+  margin-left: -4px;
+  top: 0;
+}
+
+.winButtons_c38106 .winButton_c38106 > svg {
+  display: none;
+}
+
+.winButtons_c38106 .winButton_c38106:hover {
+  background-color: var(--background-tertiary);
+}
+
+.winButtons_c38106 .winButton_c38106::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+
+.winButtons_c38106 .winButtonClose_c38106::after {
+  background-color: var(--close-button-color) !important;
+  margin-top: 0px;
+}
+
+.winButtons_c38106 .winButtonMinMax_c38106:nth-child(1)::after {
+  background-color: var(--minimize-button-color) !important;
+  margin-top: 0px;
+}
+
+.winButtons_c38106 .winButtonMinMax_c38106:nth-child(2)::after {
+  background-color: var(--maximize-button-color) !important;
+  margin-top: 0px;
+}
+
+.winButtons_c38106 .winButton_c38106:hover::after {
+  transform: scale(1.1);
+}
+
+/* Reorder buttons to match Mac style (close, minimize, maximize) */
+.winButtons_c38106 .winButtonClose_c38106 {
+  order: 1;
+}
+
+.winButtons_c38106 .winButtonMinMax_c38106:nth-child(1) {
+  order: 2;
+}
+
+.winButtons_c38106 .winButtonMinMax_c38106:nth-child(2) {
+  order: 3;
+}
+
+/* Legacy support for older Discord versions */
 .withFrame_a934d8 {
   margin: 0;
   height: 24px;
 }
+
 .typeWindows_a934d8 {
   flex-direction: var(--button-position);
   margin-left: 3px !important;
 }
+
 .withFrame_a934d8 .winButton_a934d8 > svg {
   display: none;
 }
+
 .withFrame_a934d8 .winButton_a934d8:hover {
   background-color: var(--background-tertiary);
 }
+
 .withFrame_a934d8 .winButton_a934d8 {
   pointer-events: none;
   margin-left: -4px;
   top: 0;
 }
+
 .withFrame_a934d8 .winButton_a934d8::after {
   content: "";
   padding: 7px;
@@ -32,18 +98,22 @@
   pointer-events: fill;
   transition-duration: 200ms;
 }
+
 .withFrame_a934d8 .winButtonClose_a934d8::after {
   background-color: var(--close-button-color) !important;
   margin-top: 0px;
 }
+
 .withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
   background-color: var(--maximize-button-color) !important;
   margin-top: 0px;
 }
+
 .withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4):after {
   background-color: var(--minimize-button-color) !important;
   margin-top: 0px;
 }
+
 .typeWindows_a934d8 > div:hover::after {
   transform: scale(1.1);
 }
@@ -51,9 +121,11 @@
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(1) {
   order: 2;
 }
+
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
   order: 3;
 }
+
 .withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
   order: 1;
 }
