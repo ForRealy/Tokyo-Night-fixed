@@ -14,22 +14,19 @@
 .customScroller_c25c6d div h1,
 .contentColumnDefault_c25c6d .marginBottom4_f7730b h1,
 .sectionTitle-3j2YI1 h1,
-.alignCenter_ec1a20 h1,
-.settingsTitle_c25c6d h1 {
+.alignCenter_ec1a20 h1 {
   font-style: italic;
   font-weight: 600;
 }
 
 /* Server Name */
-.header_fd6364 .name_fd6364,
-.guildName_fd6364 {
+.header_fd6364 .name_fd6364 {
   font-style: italic;
   font-weight: 500;
 }
 
 /* Category Name */
-.name_a08117.container-q97qHp .overflow_c74e70,
-.categoryName_a08117 {
+.name_a08117.container-q97qHp .overflow_c74e70 {
   font-weight: 600;
 }
 
@@ -38,22 +35,19 @@
 .nameTag-2Nlmsy .discriminator-1bqsd3,
 .headerText-1-WmDq .nickname-t08Mck,
 .headerTagUsernameNoNickname-1TjuLc,
-.headerTagDiscriminatorNoNickname-dfcvHa,
-.username_f9f2ca {
+.headerTagDiscriminatorNoNickname-dfcvHa {
   font-style: italic;
   font-weight: 500;
 }
 
 /* Link text */
-.anchor-1MIwyf,
-.link_f9f2ca {
+.anchor-1MIwyf {
   font-style: italic;
 }
 
 /* Timestamp */
 .compact_ec86aa .timestamp_ec86aa,
-.cozy_ec86aa .timestamp_ec86aa,
-.timestamp_d5deea {
+.cozy_ec86aa .timestamp_ec86aa {
   font-style: italic;
   font-weight: 500;
   font-size: 0.7rem;

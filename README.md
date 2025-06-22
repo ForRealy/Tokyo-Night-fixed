@@ -2,6 +2,8 @@
 
 A clean, dark Discord port of the V.S. Code Tokyo Night theme.
 
+This is a fork of the original [Tokyo Night Discord theme](https://github.com/Dyzean/Tokyo-Night) by Ashtrath, with fixes and updates from [thaYt's fork](https://github.com/thaYt/Tokyo-Night-fix).
+
 ---
 
 ## Installation
@@ -28,8 +30,10 @@ https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.
 
 ## Credits
 
+* **Original Theme**: [Ashtrath](https://github.com/Dyzean/Tokyo-Night) - Creator of the original Tokyo Night Discord theme
+* **Fixes & Updates**: [thaYt](https://github.com/thaYt/Tokyo-Night-fix) - Recent fixes and Discord compatibility updates
+* **Tokyo Night Color Scheme**: [enkia](https://github.com/enkia/tokyo-night-vscode-theme) - Original VS Code theme
 * LuckFire for Better Quotes
 * NYRI4 for Discolored
 * GooseNest for Revert Rebrand
-* thayt for recent fixes
 * Also Huge thanks for BD & Powercord servers for snippets and help!

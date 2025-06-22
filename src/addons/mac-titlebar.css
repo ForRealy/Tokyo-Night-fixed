@@ -1,79 +1,59 @@
-/* Mac Like Titlebar - Updated for Discord 410706 */
+/* Mac Like Titlebar */
 :root {
   --close-button-color: #e92a2ade;
   --minimize-button-color: #f7bc1bde;
   --maximize-button-color: #12db33de;
-  --button-position: row-reverse; /* Align buttons to the right */
+  --button-position: row;
 }
 
-.withFrame_a934d8,
-.titleBar_a934d8 {
+.withFrame_a934d8 {
   margin: 0;
   height: 24px;
 }
-
-.typeWindows_a934d8,
-.windowControls_a934d8 {
+.typeWindows_a934d8 {
   flex-direction: var(--button-position);
+  margin-left: 3px !important;
 }
-
-.withFrame_a934d8 .winButton_a934d8 > svg,
-.titleBar_a934d8 .winButton_a934d8 > svg {
+.withFrame_a934d8 .winButton_a934d8 > svg {
   display: none;
 }
-
-.withFrame_a934d8 .winButton_a934d8:hover,
-.titleBar_a934d8 .winButton_a934d8:hover {
-  background-color: var(--background-tertiary);
+.withFrame_a934d8 .winButton_a934d8:hover {
+  background-color: var(--background-teritary);
 }
-
-.withFrame_a934d8 .winButton_a934d8,
-.titleBar_a934d8 .winButton_a934d8 {
+.withFrame_a934d8 .winButton_a934d8 {
   pointer-events: none;
   margin-left: -4px;
   top: 0;
 }
-
-.withFrame_a934d8 .winButton_a934d8::after,
-.titleBar_a934d8 .winButton_a934d8::after {
+.withFrame_a934d8 .winButton_a934d8::after {
   content: "";
   padding: 7px;
   border-radius: 50px;
   pointer-events: fill;
   transition-duration: 200ms;
 }
-
-.withFrame_a934d8 .winButtonClose_a934d8::after,
-.titleBar_a934d8 .winButtonClose_a934d8::after {
+.withFrame_a934d8 .winButtonClose_a934d8::after {
   background-color: var(--close-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after,
-.titleBar_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
+.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
   background-color: var(--maximize-button-color) !important;
+  margin-top: 0px;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4)::after,
-.titleBar_a934d8 .winButtonMinMax_a934d8:nth-child(4)::after {
+.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4):after {
   background-color: var(--minimize-button-color) !important;
+  margin-top: 0px;
 }
-
-.typeWindows_a934d8 > div:hover::after,
-.windowControls_a934d8 > div:hover::after {
+.typeWindows_a934d8 > div:hover::after {
   transform: scale(1.1);
 }
 
-.withFrame_a934d8 .winButtonClose_a934d8,
-.titleBar_a934d8 .winButtonClose_a934d8 {
-  order: 1; /* Close button */
+.withFrame_a934d8 .winButton_a934d8:nth-last-child(1) {
+  order: 2;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(3),
-.titleBar_a934d8 .winButtonMinMax_a934d8:nth-child(3) {
-  order: 2; /* Maximize button */
+.withFrame_a934d8 .winButton_a934d8:nth-last-child(2) {
+  order: 3;
 }
-
-.withFrame_a934d8 .winButtonMinMax_a934d8:nth-child(4),
-.titleBar_a934d8 .winButtonMinMax_a934d8:nth-child(4) {
-  order: 3; /* Minimize button */
+.withFrame_a934d8 .winButton_a934d8:nth-last-child(3) {
+  order: 1;
 }
