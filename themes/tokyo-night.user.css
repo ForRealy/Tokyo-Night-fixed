@@ -1,10 +1,10 @@
 @-moz-document domain("discord.com") {
 /* ==UserStyle==
-   @name        Tokyo Night V2
-   @description An updated version of the Tokyo Night Discord theme with fixes for newer Discord versions and proper attribution to the original creator.
+   @name        Tokyo Night
+   @description A clean, dark Discord port of the V.S. Code Tokyo Night theme.
    @author      ForRealy (based on original work by Ashtrath)
    @namespace   https://github.com/ForRealy/TokyoNightV2
-   @version     2.2.0
+   @version     2.4.0
 ==/UserStyle== */
 
   @import url("https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/src/main.css");

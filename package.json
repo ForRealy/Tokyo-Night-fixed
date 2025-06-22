@@ -1,14 +1,8 @@
 {
-  "name": "tokyo-night-discord-theme-v2",
-  "version": "2.2.0",
-  "description": "An updated version of the Tokyo Night Discord theme with fixes for newer Discord updates",
+  "name": "tokyo-night-discord-theme",
+  "version": "2.4.0",
+  "description": "A clean, dark Discord port of the V.S. Code Tokyo Night theme",
   "main": "themes/tokyo-night.theme.css",
-  "scripts": {
-    "build": "npm run copy-assets",
-    "copy-assets": "mkdir dist 2> nul || echo Directory exists && xcopy /E /I /Y src themes dist",
-    "dev": "npm run build && npm run watch",
-    "watch": "chokidar 'src/**/*' 'themes/**/*' -c 'npm run build'"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ForRealy/TokyoNightV2.git"
@@ -21,12 +15,5 @@
     "betterdiscord"
   ],
   "author": "ForRealy (based on original work by Ashtrath)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ForRealy/TokyoNightV2/issues"
-  },
-  "homepage": "https://github.com/ForRealy/TokyoNightV2#readme",
-  "devDependencies": {
-    "chokidar-cli": "^3.0.0"
-  }
+  "license": "MIT"
 }

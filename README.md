@@ -1,142 +1,35 @@
-# Tokyo Night V2 - Discord Theme
+# Tokyo Night
 
-A modernized version of the popular Tokyo Night Discord theme, updated for compatibility with newer Discord versions.
+A clean, dark Discord port of the V.S. Code Tokyo Night theme.
 
-## 🎨 About
+---
 
-This theme is based on the excellent work by [Ashtrath](https://github.com/Dyzean/Tokyo-Night). This V2 version includes:
+## Installation
 
-- **Updated compatibility** for newer Discord versions
-- **Fixed styling issues** caused by Discord's layout changes
-- **Enhanced visual elements** and improved consistency
-- **Better mobile responsiveness**
-- **Optimized performance**
+### Vencord
 
-## 📸 Preview
+##### Online Theme Method
 
-The theme transforms Discord with the beautiful Tokyo Night color palette, featuring:
-- Deep purple/blue backgrounds
-- Vibrant accent colors
-- Improved readability
-- Consistent styling across all Discord elements
+1. Go to user settings (CTRL + ,)
+2. Go to the "Vencord" category and select the "Themes" tab, then go to the "Online Themes" section.
+3. In the input field under "THEMES" paste the following URL.
 
-## 📦 Installation
-
-### Using Vencord (Recommended)
-1. Install Vencord from [here](https://vencord.dev)
-2. Open Discord
-3. Press `Ctrl + Shift + I` to open Developer Tools
-4. Navigate to the "Themes" section
-5. Add this URL: `https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css`
-6. Enable the theme in the Vencord settings
-
-### Using BetterDiscord
-1. Download and install BetterDiscord from [here](https://betterdiscord.app)
-2. Open Discord
-3. Press `Ctrl + Shift + I` to open Developer Tools
-4. Click the gear icon in the top-right corner
-5. Click "Import Theme"
-6. Copy and paste the theme code from [tokyo-night.theme.css](https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css)
-7. Click "Save" it in your BetterDiscord themes folder:
-   - Windows: `%appdata%/BetterDiscord/themes/`
-   - macOS: `~/Library/Application Support/BetterDiscord/themes/`
-   - Linux: `~/.config/BetterDiscord/themes/`
-8. Enable the theme in Discord Settings > Themes
-
-### Stylus (Browser Extension)
-1. Install the Stylus browser extension
-2. Import the `tokyo-night.user.css` file
-3. Enable the style for discord.com
-
-## ⚙️ Customization
-
-The theme includes several optional addons that can be enabled/disabled:
-
-### Available Addons
-- **Revert Rebrand**: Restores the classic Discord branding
-- **VSCode User Area**: Visual Studio Code-like user interface
-- **Syntax Highlighting**: Enhanced code block styling
-- **Mac Titlebar**: macOS-style window controls
-- **Compact Mode**: Space-saving layout for smaller screens
-- **Monospace Fonts**: JetBrains Mono font integration
-- **Square Avatars**: Square-shaped user avatars
-- **Username Backgrounds**: Colorful username highlighting
-
-### Enabling/Disabling Addons
-Edit the theme file and uncomment/comment the `@import` lines for the addons you want:
-
-```css
-/* Enable an addon by uncommenting the line */
-@import url("https://dyzean.github.io/Tokyo-Night/src/addons/compact-mode.css");
-
-/* Disable an addon by commenting the line */
-/* @import url("https://dyzean.github.io/Tokyo-Night/src/addons/compact-mode.css"); */
+```
+https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css
 ```
 
-## 🔧 What's New in V2
+##### Local Theme Method
 
-### Discord Compatibility Updates
-- Fixed server list styling for new Discord layout
-- Updated channel list appearance
-- Corrected message styling inconsistencies
-- Fixed user popout and modal backgrounds
-- Improved thread and forum channel support
+1. Go here and download the theme file.
+2. Place it in the Vencord themes folder
+3. Go to user settings (CTRL + ,)
+4. Go to the "Vencord" category and select the "Themes" tab, then go to the "Local Themes" section.
+5. Enable Tokyo Night in the themes tab
 
-### Enhanced Features
-- Better contrast ratios for accessibility
-- Improved mobile/responsive design
-- Optimized CSS for better performance
-- Fixed various visual glitches
-- Updated color variables for consistency
+## Credits
 
-### Bug Fixes
-- Fixed titlebar button positioning
-- Corrected scrollbar styling
-- Fixed input field appearances
-- Resolved tooltip positioning issues
-- Fixed various hover states
-
-## 🎯 Supported Discord Features
-
-- ✅ Server lists and folders
-- ✅ Channel lists and categories
-- ✅ Message threads
-- ✅ Forum channels
-- ✅ Voice/Video calls
-- ✅ User profiles and popouts
-- ✅ Settings modals
-- ✅ Emoji picker
-- ✅ File uploads and embeds
-- ✅ Reactions and mentions
-- ✅ Search functionality
-- ✅ Notification badges
-
-## 🤝 Contributing
-
-Contributions are welcome! If you find bugs or have suggestions:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test with the latest Discord version
-5. Submit a pull request
-
-## 📝 Credits
-
-- **Original Theme**: [Ashtrath](https://github.com/Dyzean/Tokyo-Night) - Creator of the original Tokyo Night Discord theme
-- **Tokyo Night Color Scheme**: [enkia](https://github.com/enkia/tokyo-night-vscode-theme) - Original VS Code theme
-- **V2 Updates**: [ForRealy](https://github.com/ForRealy) - Modernization and compatibility updates
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Links
-
-- [Original Tokyo Night Theme](https://github.com/Dyzean/Tokyo-Night)
-- [BetterDiscord](https://betterdiscord.app/)
-- [Tokyo Night VS Code Theme](https://github.com/enkia/tokyo-night-vscode-theme)
-
-## ⚠️ Disclaimer
-
-This theme modifies Discord's appearance and is not officially supported by Discord. Use at your own discretion. Always keep your Discord client updated and be aware that Discord updates may temporarily break theme functionality.
+* LuckFire for Better Quotes
+* NYRI4 for Discolored
+* GooseNest for Revert Rebrand
+* thayt for recent fixes
+* Also Huge thanks for BD & Powercord servers for snippets and help!
