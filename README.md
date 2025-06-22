@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.
 
 ##### Local Theme Method
 
-1. Go here and download the theme file.
+1. Go [here](https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css) and download the theme file.
 2. Place it in the Vencord themes folder
 3. Go to user settings (CTRL + ,)
 4. Go to the "Vencord" category and select the "Themes" tab, then go to the "Local Themes" section.
