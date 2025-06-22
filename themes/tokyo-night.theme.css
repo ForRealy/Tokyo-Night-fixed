@@ -1,14 +1,18 @@
 /**
  * @name Tokyo Night V2
  * @author ForRealy (based on original work by Ashtrath)
- * @version 2.2.0
- * @description An updated version of the Tokyo Night Discord theme with fixes for newer Discord versions and proper attribution to the original creator.
+ * @version 2.3.0
+ * @description An updated version of the Tokyo Night Discord theme with fixes for newer Discord versions and Vencord compatibility.
  * @source https://github.com/ForRealy/TokyoNightV2
  * @updateUrl https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css
  * @authorId YOUR_DISCORD_ID_HERE
  * @invite YOUR_DISCORD_INVITE_HERE
  * @vencord true
  * @vencord-url https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css
+ * @vencord-theme true
+ * @vencord-version 658a628
+ * @vencord-performance-mode true
+ * @vencord-cache-enabled true
  */
 
 /* 
@@ -23,31 +27,54 @@
 
 /* Vencord-specific optimizations */
 :root {
-  /* Fix for Vencord's new layout system */
+  /* Vencord Theme Variables */
   --vencord-theme: true;
   --vencord-version: 658a628;
-  
-  /* Improved performance settings */
   --vencord-performance-mode: true;
   --vencord-cache-enabled: true;
+  
+  /* App Layout */
+  --app-bg: var(--background-primary);
+  --app-blur: 0px;
+  --app-margin: 16px;
+  --app-radius: 8px;
+  
+  /* Message Styling */
+  --message-color: var(--background-secondary);
+  --message-radius: 8px;
+  --message-padding-top: 8px;
+  --message-padding-side: 8px;
+  
+  /* Text Areas */
+  --textarea-color: var(--background-secondary);
+  --textarea-alpha: 0.2;
+  --textarea-alpha-focus: 0.3;
+  --textarea-text-color: var(--text-normal);
+  --textarea-radius: 8px;
+  
+  /* Buttons */
+  --button-height: 32px;
+  --button-padding: 0 16px;
+  --button-action-color: var(--accent-color);
+  --button-radius: 16px;
 }
 
 /* Fix for Vencord's new message input system */
-.message-input-container {
-  background-color: var(--background-floating) !important;
+.message-2CShn3, .messageInput-1KL2vQ {
+  background-color: var(--background-secondary) !important;
   border-radius: 8px !important;
   transition: background-color 0.2s ease !important;
 }
 
-/* Fix for Vencord's new emoji picker */
-.emoji-picker {
-  background-color: var(--background-floating) !important;
+/* Fix for emoji picker */
+.emojiPicker-6YCk8a {
+  background-color: var(--background-secondary) !important;
   border-radius: 8px !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* Fix for Vencord's new user popouts */
-.user-popout {
+/* Fix for user popouts */
+.userPopout-2j1gM4 {
   background-color: var(--background-floating) !important;
   border-radius: 12px !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
