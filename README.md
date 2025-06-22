@@ -17,12 +17,12 @@ This is a fork of the original [Tokyo Night Discord theme](https://github.com/Dy
 3. In the input field under "THEMES" paste the following URL.
 
 ```
-https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css
+https://raw.githubusercontent.com/ForRealy/Tokyo-Night-fixed/main/themes/tokyo-night.theme.css
 ```
 
 ##### Local Theme Method
 
-1. Go [here](https://raw.githubusercontent.com/ForRealy/TokyoNightV2/main/themes/tokyo-night.theme.css) and download the theme file.
+1. Go [here](https://raw.githubusercontent.com/ForRealy/Tokyo-Night-fixed/main/themes/tokyo-night.theme.css) and download the theme file.
 2. Place it in the Vencord themes folder
 3. Go to user settings (CTRL + ,)
 4. Go to the "Vencord" category and select the "Themes" tab, then go to the "Local Themes" section.
